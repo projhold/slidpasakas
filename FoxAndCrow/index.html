@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lapsa un Pūce</title>
+		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+		<style>
+		.slideimage {
+			height: 100%;	
+			margin-left: auto;
+			margin-right: auto;
+			z-index: 	0;
+		}
+		.slidetext {
+			z-index:100;
+			font-size: 200%;
+			font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+			text-shadow:0px 0px 4px #FFF;
+			text-align: center;
+		}
+		.slidetale {
+			background: #cdd;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="slidetale" > 
+			<div>
+				<div class=slidetext>Reiz kāda izsalkusi pūce atrada picas gabalu.</div>
+				<img src="1.svg" class="slideimage">
+			</div>
+			<div>
+				<div class=slidetext>Lai to mierīgi notiesātu, pūce uznesa picu kokā.</div>
+			    <img src="2.svg" class="slideimage">
+			</div>
+			<div>
+				<div class=slidetext>Taču arī izmanīgā lapsa pamanīja pūces guvumu un piesteidzās<br/> klāt, taču kokā uzrāpties nevarēja.</div>
+				<img src="3.svg" class=slideimage> 
+			</div>
+			<div>
+				<div class=slidetext>Tāpēc lapsa izmantoja viltību un sāka glaimot, cik pūce ir brīnišķīgs putns.</div>
+				<img src="3.svg" class=slideimage>
+			</div>
+			<div>
+				<div class=slidetext>Pūcei šāda valoda ļoti patika, taču kolīdz tā atvēra muti, ēdamais nokrita zemē.</div>
+				<img src="4.svg" class=slideimage>
+			</div>
+			<div>
+				<div class=slidetext>Lapsa ātri vien notiesāja pūces pusdienas tā, ka drupačas vien palika.</div>
+				<img src="5.svg" class=slideimage>
+			</div>
+			<div>
+				<div class=slidetext>Tā pūce šoreiz palika ar tukšu vēderu, taču guva<br/> labu mācību - svešiem glaimiem ticēt nevar.</div>
+				<img src="6.svg" class=slideimage>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+	
+		<script>
+			$(document).ready(function(){
+			  $('.slidetale').slick({
+				infinite: false,
+				mobileFirst: true
+			  });
+			});
+		</script>
+	</body>
+</html>
